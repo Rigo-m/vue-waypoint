@@ -1,6 +1,6 @@
 {
   "name": "@rigo-m/vue-waypoint",
-  "version": "5.0.1",
+  "version": "5.1.0",
   "license": "MIT",
   "private": false,
   "main": "dist/vue-waypoint.umd.js",

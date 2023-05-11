@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.0](https://github.com/rigo-m/vue-waypoint/compare/v5.0.0...v5.1.0) (2023-05-11)
+
+### Features
+
+- added entry in waypoint callback to access e.g. intersectionratio ([0271948](https://github.com/rigo-m/vue-waypoint/commit/0271948bf839c46a2b99075b1f2a091905006146))
+
 ## 5.0.0 (2023-05-11)
 
 ### ⚠ BREAKING CHANGES
