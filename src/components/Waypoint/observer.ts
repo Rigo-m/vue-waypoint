@@ -2,6 +2,7 @@ import { ref } from "vue";
 
 export type WaypointState = {
   el: Element | undefined;
+  entry: IntersectionObserverEntry | undefined;
   going: Going | undefined;
   direction: Direction | undefined;
 };
@@ -52,6 +53,7 @@ export const createObserver = (options?: IntersectionObserverInit) => {
       // create a new state and notify
       callback({
         el: entry.target,
+        entry,
         going: toGoing(entry.isIntersecting),
         direction: toDirection(
           entry.boundingClientRect,
