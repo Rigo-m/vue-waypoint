@@ -2,6 +2,58 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 5.0.0 (2023-05-11)
+
+### ⚠ BREAKING CHANGES
+
+- vue2 support is over
+
+- feat: waypoint bind/unbind
+
+- feat: tag selection
+
+- feat: export ts types
+
+- fix: lib target
+
+- chore: remove roadmap since it is done
+
+- build: standard version
+
+- docs: generally improved and vue2 refs
+
+- build: release on tag push
+
+- chore: license and private to false
+
+- fix: aligned version
+
+- docs: dev steps
+
+- docs: move CSS helpers on top
+
+CSS helpers will probably be the most used feature, so we move it to the top
+
+- docs: CSS features list
+
+- fix: remove impossible path
+
+- feat: final decorations
+
+### Features
+
+- added support for SSR environments ([3c23731](https://github.com/rigo-m/vue-waypoint/commit/3c23731265edfa6c52254185917c78c3bf2136e0))
+- adds el as example ([09cdc71](https://github.com/rigo-m/vue-waypoint/commit/09cdc716873ac0711a2078f248aa2749d31e2629))
+- disableCssHelpers ([3ff1e45](https://github.com/rigo-m/vue-waypoint/commit/3ff1e458a3d4e519c031a0ce72e21454bff51673))
+- vue3 support ([#46](https://github.com/rigo-m/vue-waypoint/issues/46)) ([2fe79ee](https://github.com/rigo-m/vue-waypoint/commit/2fe79ee0e1c30bc314b5c66fc3eadbdbca536d4f))
+
+### Bug Fixes
+
+- intermediate states cleanup ([2766be8](https://github.com/rigo-m/vue-waypoint/commit/2766be8d583ac546e81576e11add97879e4db0c1))
+- node version on build ([f5944df](https://github.com/rigo-m/vue-waypoint/commit/f5944df31e90ac6ea19a6474aa183ffc7f834814))
+- typing export ([612fd4c](https://github.com/rigo-m/vue-waypoint/commit/612fd4c8e4c6efdbdc42a06a3c1c5a47ad7a0b49))
+- Typo in defineDirective (Closes [#35](https://github.com/rigo-m/vue-waypoint/issues/35)) ([#36](https://github.com/rigo-m/vue-waypoint/issues/36)) ([fdeb078](https://github.com/rigo-m/vue-waypoint/commit/fdeb0780ba348d388606929662c31176e293b7df))
+
 ### [4.2.5](https://github.com/scaccogatto/vue-waypoint/compare/v4.2.4...v4.2.5) (2022-09-12)
 
 ### Bug Fixes

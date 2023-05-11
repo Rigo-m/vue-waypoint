@@ -1,6 +1,6 @@
 {
   "name": "vue-waypoint",
-  "version": "4.2.5",
+  "version": "5.0.0",
   "license": "MIT",
   "private": false,
   "main": "dist/vue-waypoint.umd.js",
@@ -8,7 +8,7 @@
   "typings": "src/components/Waypoint/index.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/scaccogatto/vue-waypoint"
+    "url": "https://github.com/rigo-m/vue-waypoint"
   },
   "scripts": {
     "dev": "vite",
