@@ -1,11 +1,20 @@
 {
   "name": "@rigo-m/vue-waypoint",
-  "version": "5.2.0",
+  "version": "5.2.1",
   "license": "MIT",
   "private": false,
   "type": "module",
-  "main": "dist/vue-waypoint.umd.js",
-  "module": "dist/vue-waypoint.mjs",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue-waypoint.umd.cjs",
+  "module": "./dist/vue-waypoint.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-waypoint.js",
+      "require": "./dist/vue-waypoint.umd.cjs"
+    }
+  },
   "typings": "src/components/Waypoint/index.ts",
   "repository": {
     "type": "git",
@@ -28,7 +37,7 @@
     "@rushstack/eslint-patch": "^1.1.4",
     "@types/jsdom": "^20.0.0",
     "@types/node": "^16.11.47",
-    "@vitejs/plugin-vue": "^3.0.1",
+    "@vitejs/plugin-vue": "^4.2.3",
     "@vue/eslint-config-prettier": "^7.0.0",
     "@vue/eslint-config-typescript": "^11.0.0",
     "@vue/test-utils": "^2.3.0",
@@ -42,7 +51,7 @@
     "prettier": "^2.7.1",
     "standard-version": "^9.5.0",
     "typescript": "~4.7.4",
-    "vite": "^3.0.4",
+    "vite": "^4.3.0",
     "vitest": "^0.21.0",
     "vue": "^3.2.37",
     "vue-tsc": "^0.39.5"
