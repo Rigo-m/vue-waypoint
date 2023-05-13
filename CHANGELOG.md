@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.2.2](https://github.com/rigo-m/vue-waypoint/compare/v5.1.0...v5.2.2) (2023-05-13)
+
+### Bug Fixes
+
+- added type module to package json ([c0732f0](https://github.com/rigo-m/vue-waypoint/commit/c0732f0024ab3058da3d8187eb73545ac338a259))
+
 ## [5.1.0](https://github.com/rigo-m/vue-waypoint/compare/v5.0.0...v5.1.0) (2023-05-11)
 
 ### Features
